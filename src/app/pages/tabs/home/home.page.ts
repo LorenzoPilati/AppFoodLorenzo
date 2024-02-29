@@ -18,9 +18,9 @@ export class HomePage implements OnInit {
     this.isLoading = true;
     setTimeout(() =>{
       this.banners = [
-        {bannner: 'assets/imgs/img1.jpeg'},
-        {bannner: 'assets/imgs/img2.jpeg'},
-        {bannner: 'assets/imgs/img3.jpeg'}
+        {banner: 'assets/imgs/img1.jpeg'},
+        {banner: 'assets/imgs/img2.jpeg'},
+        {banner: 'assets/imgs/img3.jpeg'}
       ];
       this.restaurants = [
         {

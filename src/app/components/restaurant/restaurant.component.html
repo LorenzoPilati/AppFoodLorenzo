@@ -1,7 +1,6 @@
 <ion-item lines="none">
   <ion-thumbnail slot="start">
-    <img src="restaurant?.cover ? restaurant.cover : 
-    'assets/imgs/img1.jpeg"/>
+    <img [src]="restaurant?.cover ? restaurant.cover : 'assets/img/vazio.jpg'"/>
   </ion-thumbnail>
   <ion-label>
     <h4>{{restaurant?.name}}</h4>

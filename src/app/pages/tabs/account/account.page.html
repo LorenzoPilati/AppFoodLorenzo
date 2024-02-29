@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Minha Conta</ion-title>
+    <ion-buttons slot="end">
+      <ion-button fill="clear">
+        <ion-icon name="power-outline" style="color: white"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item lines="full">
+      <ion-button slot="end" fill="clear">Editar</ion-button>
+      <ion-label>
+        <h4>Lorenzo Pilati</h4>
+        <p>42984050998 | lm.pilati&#64;gmail.com</p>
+      </ion-label>
+    </ion-item>
+    <ion-item lines="none" detail="true">
+      <ion-icon name="home-outline" slot="start" color="dark"></ion-icon>
+      <h5>Gerenciar Endereços</h5>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-list-header>
+      <ion-label color="primary"Últimos Pedidos></ion-label>
+    </ion-list-header>
+
+    <ion-item-group *ngIf="orders?.length > 0">
+      <app-order *ngFor="let order of orders"
+      [order]="order"></app-order>
+    </ion-item-group>
+  </ion-list>
+</ion-content>

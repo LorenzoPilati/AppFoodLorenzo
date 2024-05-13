@@ -1,0 +1,1 @@
+Um trabalho reazliado na Materia de Computação Movel do curso de Ciencia da Computação da Universidade Estadual do Centro-Oeste (Unicenetro). Este trabalho tem como objetivo a criação de um modelo de APP de entrega de comidas utilizando para o estudo de frontend e modularização de componentes usando o framework Ionic.
